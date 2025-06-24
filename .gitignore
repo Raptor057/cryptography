@@ -1,0 +1,117 @@
+# ========================
+# OS-specific junk files
+# ========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+*.venv
+env/
+venv/
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+site/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+.pyre/
+.tox/
+.cache/
+*.log
+
+# ========================
+# C/C++
+# ========================
+*.obj
+*.o
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.*
+*.dll
+*.exe
+*.out
+*.a
+*.dylib
+*.dSYM/
+*.stackdump
+*.map
+*.gch
+*.pch
+*.idb
+*.pdb
+
+# ========================
+# Rust
+# ========================
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# ========================
+# Go
+# ========================
+/bin/
+/pkg/
+*.exe
+*.test
+*.out
+
+# ========================
+# VSCode / JetBrains / Common IDEs
+# ========================
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# ========================
+# Logs and temp
+# ========================
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+*.sw?
+
+# ========================
+# Secrets (add your own if needed)
+# ========================
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.gpg
